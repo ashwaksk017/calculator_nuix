@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="TestAddition">
+		<parameter name="csvFile" 	value="/math.csv"></parameter> 
+		<parameter name="start" value="1"></parameter>
+		<parameter name="end" value="1"></parameter>
+		<classes>
+			  <class name="com.test.classes.AdditionTest" /> 
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
